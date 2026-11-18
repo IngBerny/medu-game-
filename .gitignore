@@ -1,0 +1,22 @@
+# Godot 4+
+.godot/
+*.translation
+
+# Salidas de exportación
+build/
+*.apk
+*.aab
+*.idsig
+
+# Plantilla de compilación Gradle (solo si algún día activas "Use Gradle Build")
+android/
+
+# Archivos de editor / sistema
+.DS_Store
+Thumbs.db
+*.tmp
+__pycache__/
+
+# Llaves de firma: NUNCA subir
+*.keystore
+*.jks
